@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
+header{
+  background-color: lightblue;
+  padding: 20px;
+}
+
+main{
+  flex: 1;
+  min-height: 83vh;
+  background-color: lightpink;
+  padding: 20px 400px;
+}
+
+footer{
+  background-color: lightblue;
+  padding: 20px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul li{
+  margin: 0 10px;
+}
+
+nav ul li a {
+  margin: 0px;
+  padding:  0px;
+  text-decoration: none;
+}
