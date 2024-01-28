@@ -7,19 +7,25 @@ body{
   
   display: flex;
   flex-direction: column;
+  color: rgb(56, 55, 55);
+  font-family: 'Rubik', sans-serif;
+  font-weight:  700;
+
 }
 
 
 header{
-  background-color: lightblue;
+  background-color: white;
   padding: 20px;
+  
 }
 
 main{
   flex: 1;
   min-height: 83vh;
-  background-color: lightpink;
-  padding: 20px 400px;
+   background-color: rgb(240, 240, 240);
+  padding-bottom: 20px  ;
+  
 }
 
 footer{
@@ -32,15 +38,239 @@ nav ul{
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 nav ul li{
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   margin: 0px;
   padding:  0px;
   text-decoration: none;
+  color: rgb(56, 55, 55);
+  transition: font-size 0.2s; 
+  
+
+}
+
+nav ul li a:hover {
+   font-size: 20px;
+
+}
+
+/* Home page */
+
+.home-header-div {
+
+  position: relative;
+  display: inline-block;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.home-header-div-text{
+
+  position: absolute;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.home-header-div-text h1 , .home-header-div-text p {
+
+  margin: 20px;
+}
+
+.home-header-div img{
+
+  height: 900px;
+  width: 100%
+}
+
+
+.home-main-div{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 300px;
+}
+
+.home-content-div{
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.home-content-div-text{
+   
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ 
+.home-content-div-text-header{
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+ 
+
+
+.home-content-div-text p{
+  
+  width: 370px;
+  font-size: 20px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.home-content-div-img{
+ 
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-content-div-img img{
+  width: 520px; 
+}
+ 
+
+/* Facilities page */
+
+.Facilities-div  {
+   
+  padding: 80px 400px;
+  
+}
+
+.Facilities-div h2 , .Facilities-div h1 {
+
+  margin: 30px 20px;
+
+}
+
+.Facilities-div p{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.Facilities-div-img  {
+
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.Facilities-div-img  img{
+  
+  width: 500px;
+  margin: 40px;
+}
+
+/* ContactUs page */
+
+.ContactUs-div{
+
+  padding: 80px 400px;
+  
+}
+
+.ContactUs-div ul{
+
+  list-style: none;
+}
+
+.ContactUs-div h1 , 
+.ContactUs-div h2 ,
+.ContactUs-div p,
+.ContactUs-div ul{
+  margin: 30px 20px;
+   
+}
+
+.ContactUs-div p , .ContactUs-div ul{
+  font-size: 20px;
+  
+}
+
+.Contact-form {
+  padding: 0px 400px 80px  400px;
+  font-size: 20px;
+
+}
+
+.Contact-form h1{
+  margin-bottom: 40px;
+}
+
+.Contact-form label,
+.Contact-form input
+{
+
+  display: block;
+  height: 30px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  font-size: 20px;
+
+}
+
+
+.Contact-form textarea {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-style: none;
+  padding: 5px;
+  font-size: 20px;
+}
+.Contact-form textarea {
+  height: 100px;
+}
+.Contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.Contact-form button:hover {
+  background-color: #45a049;
 }
