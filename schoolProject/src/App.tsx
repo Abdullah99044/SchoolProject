@@ -19,8 +19,8 @@ function App() {
       <header>
 
           <nav>
+            <h1> School website </h1>
             <ul>
-              <li><h1> School website </h1></li>
               <li><Link to={"/"} > Home </Link></li>
               <li><Link to={"/Facilities"} > Facilities </Link></li>
               <li><Link to={"/Contact-Us"} > Contact-Us </Link></li>
